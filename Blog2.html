@@ -1,0 +1,27 @@
+                    <section class="box post">
+                      <header>
+			<h3><a href="#">Nmap</a></h3>
+
+                      </header>
+                      <a href="#" class="image featured"><img src="images/nmap.jpg" width="450" height="325" alt="" /></a>
+		        <ul class="meta">
+                          <li class="icon fa-clock">25.02.2022</li>
+                          <li class="icon fa-comments"><a href="#">8</a></li>
+                        </ul>
+			    
+		      <p><h4>What is Nmap and why use it?</h4></p>
+			
+                      <p>
+			<p>Before venturing somewhere new, I have no doubt that most people would use some form of mapping to get there, be that either Sat nav or old school physical maps. Nmap is no different. It helps us get a picture of the landscape we wish to work with by telling us what services are running on on which ports. We call this process ‘port scanning’.</p>
+
+			<p>A computer uses ports when establishing connections to manage the data and keep it separate. There are two ports in use per one connection. One would be the randomly selected port being used on your local machine and the other would be the open port listening on the remote server(where you want to communicate to). With a total of 65535 ports available on every computer there are plenty of ports available however, without any kind of port scanning, manually checking these ports would take an age.</p>
+
+			<p>Many ports ore pre-determined, for example port 80 for HTTP or port 443 for HTTPS. However, that is not to say that these standard ports could not be altered. This reinforces the requirement to carry out port scanning. </p>
+
+			<p>The role of the Nmap tool is to connect to each port in turn to determine if each port is open, closed or filtered(behind a firewall). Obviously, if our objective were to carry out an attack as part of an audit for example, using a tool like nmap to find an open port is invaluable.  </p>
+
+			<p>With modes like ‘Aggressive’ & the ability to select the speed, individual port selection or port range selection on Nmap, you have full control over every aspect of the scanning. You can go even further by extending the functionality and versatility of Nmap significantly by using NSE(Nmap Scripting Engine). The NSE has an extensive library to expand the functionality of Nmap and includes categories such as : Safe, Exploit and Brute(won’t effect target, attempt to exploit a vulnerability, attempt to brute force credentials for running services - respectively).</p>
+
+			<p>To install Nmap, use the command <sudo apt update && sudo apt install nmap>. The list of commands available in Nmap can be found by typing <man nmap> into your terminal. </p>
+
+			<p>Please feel free to add your comments/feedback or ask any questions.</p>
