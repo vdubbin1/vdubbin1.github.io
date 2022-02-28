@@ -89,29 +89,7 @@
 			<p>The Application layer is the network layer for applications to use to transmit data. Data passed to this layer is then passed down into the next layer in the model, the Presentation layer. In practical use, this would be HTTP(Hypertext Transfer Protocol) for example.</p>
 
 			<p>Layer 6 - Presentation (Software)</p>
-			<p>This layer translates the data into a standardised format that can be understood by the application layer in the receiving computer. In addition, this layer handles any encryption, compression or other transformations of the data. The data is then passed on to the next layer in the process, the Session layer.</p>
-			      
-			<p>Layer 5 - Session (Software)</p>
-			<p>Once the Application and Presentation layers have passed the processed data to the Session layer, this layer checks to see if it is able to establish a connection with the other	computer over the network. When a successful connection is established, this layer maintains that connection as-well as engaging with the remote computer to continue to synchronise the data between the two. This layer can create multiple requests to multiple endpoints simultaneously whilst keeping the data separated and clean. If a connection cannot be established, then an error message would be returned and the process would go no further. With the session(connection between the host and the remote computer) established, the data is now passed to the Transport layer.</p>
-
-			<p>Layer 4 - Transport (joins the Software and Hardware levels)</p>
-			<p>The Transport layer must select which protocol is best served to transmit your data. Using TCP(Transmission Control Protocol), a connection is established and maintained for the duration of this instance of request. Alternatively, where speedy connection is a higher priority than a quality connection, then UDP(User Datagram Protocol) could be used. With TCP, the success rate would likely be higher due to the reliability of it’s connection and it being task dependent, for example the packets being delivered correctly and if data is lost, they would be resent until the task is completed successfully and the established connection could then be dropped. Once the Transport layer has selected the most suitable protocol, the data is transmitted in smaller segments(for TCP) or datagrams(for UDP) for a more successful transmission.</p>
-			
-			<p>Layer 3 - Network (Hardware)</p>
-			<p>The Network layer is the ‘cyber sat nav’ for your request. Having received your request from the Transport layer, the Network layer determines the best path to take to process your request quickly and efficiently using ‘Logical addressing’.  The most common for of Logical addresses are in the IPV4 format (IE 192.168.1.1 as a home router address).</p>
-
-			<p>Layer 2 - Data link (Hardware)</p>
-			<p>This layer is multifunctional as it checks that the data is in a format suitable for transmission and checks that received data hasn’t become corrupted during transmission. </p>
-			<p>In addition, this layer handles the physical addressing using the unique MAC(Media Access Control) from your NIC(Network Interface Card).</p>
-
-			<p>Layer 1 - Physical (Hardware)</p>
-			<p>The physical layer can be defined as the actual physical signals triggering or carrying the data. For example, this could be :</p>
-
-				<p>Bluetooth, Ethernet or CAN BUS(Controller Area Network).</p>
-
-			<p>The above steps are the process of sending data from one computer to another(encapsulation). When receiving the data, the process is reversed and the process starts at Layer 1 (Physical) and working through the above steps up to Layer 7 (Application). This receiving process is referred to as de-encapsulation.</p>
-
-			<p>This is my overview of the OSI model from a newbie in the world of Cyber Security. Feel free to add your comments and input.</p>
+			<p>This layer translates the data into a standardised format that can be understood by the application layer in the receiving computer. In addition, this layer handles any encryption, compression or other transformations of the data. The data is then passed on to the next layer in the process, the Session layer.</p>   
                       </p>
                       <a href="Blog3.html" class="button">Continue Reading</a>
                     </section>
